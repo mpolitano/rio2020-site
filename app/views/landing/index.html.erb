@@ -1,0 +1,91 @@
+<section class="banner">
+  <div class="container">
+    <%#= video_tag "output.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video" %>
+   <center>
+    <div class="col-md-20 col-sm-20 col-xs-20 pull-left">
+      <h2 class="stopfade"><%= t 'congress_title' %> </h2>
+            <h2 class="stopfade"><%= t 'congress_title1' %> </h2>
+
+      <br>
+      <p> <%= t 'date' %>, UNRC</p>
+      <ul class="list-inline coundown">
+        <!-- content loading via js -->
+      </ul>
+       </center>
+    </div><!-- /.col-md-6 -->
+
+    </div><!-- /container -->
+</section><!-- /.banner -->
+
+
+
+
+
+       <!--  <div class="tiwtter-container">
+        <a class="twitter-timeline" data-lang="es" data-tweet-limit="2" data-theme="dark" data-link-color="#2B7BB9" href="https://twitter.com/cacic2019?ref_src=twsrc%5Etfw">Tweets by cacic2019</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/cacic2019?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cacic2019</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div> -->
+
+
+
+
+<section class="about-section sec-pad">
+  <div class="container">
+    <div class="col-md-6">
+      <br />
+      <br />
+      <h4><%= t 'welcome' %></h4>
+      <h3>RIO<span>2019</span></h3>
+      <br />
+      <p> <%= t 'rio_history' %> </p>
+      <br />
+      <p class="small"></p>
+      <br />
+
+      <!-- <a href="#" class="btn">Buy Ticket</a> &emsp; <a href="#" class="btn btn-inverse">Read More</a> -->
+
+    </div><!-- /.col-md-6 -->
+    <div class="col-md-20 sepia">
+      <br><br><br><br><br><br><br><br><br>
+      <%= image_tag('alumnos_caminando.jpg', size: '570x400') %>
+    </div><!-- /.col-md-6 -->
+  </div><!-- /.container -->
+</section><!-- /.about-section -->
+
+<section class="call-to-action">
+  <div class="container">
+    <h3><%= t 'registrations' %></h3>
+    <p><%= t 'index_registration' %></p>
+
+    <div class="register-section">
+      <a href="http://weblidi.info.unlp.edu.ar/sac_congreso/inscripcionCongreso.php?idEvento=106" target="_blank" class="btn btn-default register-button" role="button">
+        <%= t 'registration_form' %>
+      </a>
+    </div>
+
+    <!-- <a href="#" class="btn">Register Now</a> -->
+  </div><!-- /.container -->
+</section><!-- /.call-to-action -->
+
+<section class="event-sponsor sec-pad">
+  <div class="container">
+    <div class="sec-title text-center">
+      <h5>CACIC 2019</h5>
+      <h2><%= t 'sponsors' %></h2>
+      <p><%= t 'index_sponsors_desc' %></p>
+    </div><!-- /.sec-title text-center -->
+
+    <h3 class="sponsor-title text-center"><%= t 'organize' %></h3><!-- /.organization-title -->
+    <br />
+    <ul class="sponsor-img-list list-inline text-center">
+
+      <li>
+          <%= link_to image_tag('sponsors/unrc.png'), 'https://www.unrc.edu.ar/', target: "_blank" %>
+        </li>
+    </ul>
+
+    
+
+  </div><!-- /.container -->
+</section><!-- /.event-sponsor sec-pad -->
+

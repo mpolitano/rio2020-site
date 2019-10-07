@@ -1,0 +1,60 @@
+<nav class="navbar navbar-default header header-navigation">
+
+  <div class="container">
+          <a class="navbar-brand" href="<%= landing_index_url %>">
+      <%= image_tag('logo_rio.png')  %>
+      
+        <p> <%= t 'date' %>, UNRC</p>
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      </a> -->
+    </div>
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse  navbar-collapse" id="main-menu">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="<%= landing_index_url %>">Home</a></li>
+        <li>
+          <a href="<%= static_pages_school_url %>"><%= t 'school' %></a>
+        </li>
+        <li><a href="<%= static_pages_schedule_url %>"><%= t 'schedule' %></a>
+                      <li><a href="<%= static_pages_inscription_url %>"><%= t 'registration' %></a>
+
+
+        <li><a href="<%= static_pages_sponsors_url %>"><%= t 'sponsors' %></a></li>
+        <li><a href="https://dc.exa.unrc.edu.ar/rio/es/info2019">Edicion 2019</a></li>
+
+        <li>
+        <a href="#"><%= t 'information' %></a>
+        <ul class="sub-menu">     
+          <li>
+            <a href="<%= static_pages_accommodation_url %>"><%= t 'accomodations' %></a>
+          </li>      
+          <li>
+            <a href="<%= static_pages_transport_url %>"><%= t 'transportation' %></a>
+          </li>                
+          <li><a href="<%= static_pages_contact_url %>"><%= t 'contact' %></a></li>
+       </ul>
+        
+       <!--      <div class="flags">
+              <% if @locale == 'en' %>
+                <%= link_to image_tag('es.png', size: '30x30'), root_url(locale: 'es') %>
+              <% else %>
+                <%= link_to image_tag('en.png', size: '30x30'), root_url(locale: 'en') %>
+              <% end -%>
+            </div> -->
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>

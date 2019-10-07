@@ -1,0 +1,143 @@
+<section class="page-title">
+  <div class="container">
+    <h2>Registro</h2>
+    <ul class="list-inline">
+      <li><a href="/">Home</a></li>
+      <li><a href="#"><i class="fa fa-angle-right"></i> Registro</a></li>
+    </ul><!-- /.list-inline -->
+  </div><!-- /.container -->
+</section><!-- /.page-title -->
+
+<section>
+  <form id="regForm" action="https://formspree.io/registracioncacic19@dc.exa.unrc.edu.ar" method="POST"/>
+    
+    <h4 class="warning center">Las inscripciones se encuentran cerradas debido a que están los cupos agotados</h4>
+    
+    <div class="registerForm">
+      <div class="column">
+        <h2>Datos Personales</h2>
+
+        <input type="text" class="form-control" id="last_name" name="registration[last_name]" placeholder="Apellido" disabled>
+        <input type="text" class="form-control" id="first_name" name="registration[first_name]" placeholder="Nombres" disabled>
+        <input type="text" class="form-control" id="dni" name="registration[dni]" placeholder="DNI" disabled>
+        <input type="email" class="form-control" id="email" name="registration[email]" placeholder="Email" disabled>
+        <input type="text" class="form-control" id="country" name="registration[country]" placeholder="Pais" disabled>
+        <input type="text" class="form-control" id="province" name="registration[province]" placeholder="Provincia" disabled>
+        <input type="text" class="form-control" id="city" name="registration[city]" placeholder="Ciudad" disabled>
+      </div>
+
+      <div class="column">
+        <h2>Datos de Filiación</h2>
+
+        <input type="text" class="form-control" id="university" name="registration[university]" placeholder="institución" disabled>
+
+        <select class="form-control" id="category" name="registration[category]" disabled>
+          <option>Estudiante de Universidad miembro de la RedUNCI</option>
+          <option>Estudiante de otra institución</option>
+          <option>Otro</option>
+        </select>
+
+        <div class="costo">
+          <h5>
+            Categorías y aranceles correspondientes:
+          </h5>
+
+          <ul>
+            <li>Alumnos Universidades miembros RedUNCI: <strong>Sin costo</strong></li>
+            <li>Alumnos de otras instituciones: <strong>450 AR$</strong></li>
+            <li>Otros: <strong>600 AR$</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="column course">
+        <h1>Curso</h1>
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="registration[course]" value="Curso1: Software Testing" disabled>
+          Software Testing
+        </label>
+
+        <label>
+          <input type="radio" name="registration[course]" value="Curso2: Construcción de Software Robusto con TDD" disabled>
+          Construcción de Software Robusto con TDD
+        </label>
+
+        <label>
+          <input type="radio" name="registration[course]" value="Curso3: Programación Probabilística: Teoría y Práctica" disabled>
+          Programación Probabilística: Teoría y Práctica
+        </label>
+
+        <label>
+          <input type="radio" name="registration[course]" value="Curso4: Lógica para Computación" disabled>
+          Lógica para Computación
+        </label>
+      </div>
+
+      <div class="bank-account">
+       <p>Los cuatros cursos se realizarán de manera simultanea, por lo tanto deberá optar unicamente por uno de los cursos que se dicten.</p>
+
+       <p>Para que la inscripción se haga efectiva, recuerde que debe transferir el dinero correspondiente de su categoria a la siguiente cuenta y enviar un email a registracioncacic19@dc.exa.unrc.edu.ar con el comprobante de la transferencia:  </p>
+
+        <ul>
+          <li> <strong>CBU:</strong> 0110432930043217848833</li>
+          <li> <strong>Tipo de Cuenta:</strong> Caja de Ahorro</li>
+          <li> <strong>Titular:</strong> ARROYO MARCELO DANIEL</li>
+          <li> <strong>Moneda:</strong>  Pesos Argentinos</li>
+          <li> <strong>Nro de Cuenta:</strong> 29304321784883</li>
+          <li> <strong>CUIL:</strong> 20176635933</li>
+          <li>  <strong>Banco Nación </strong> </li>
+        </ul>
+      </div>
+
+      <div class="break"></div>
+    </div>
+  </form>
+</section>
+
+
+<script type="text/javascript">
+  $("#regForm").submit(function(e) {
+    if ($("#first_name").val() === "") {
+      alert("Su nombre es requerido.");
+      e.preventDefault();
+      return false
+    }
+
+    if ($("#last_name").val() === "") {
+      alert("Su apellido es requerido");
+      e.preventDefault();
+      return false
+    }
+
+    if ($("#dni").val() === "") {
+      alert("Su numero de documento es requerido");
+      e.preventDefault();
+      return false
+    }
+
+    if ($("#email").val() === "") {
+      alert("Su email es requerido. Ingrese una dirección de correo valida.");
+      e.preventDefault();
+      return false
+    }
+
+    if ($('input[type=radio]:checked').length === 0) {
+      alert("Tiene que elegir un curso");
+      e.preventDefault();
+      return false
+    }
+
+    // send data to our server
+    $.ajax({
+      url: "https://cacic2019.exa.unrc.edu.ar/registration",
+      type: "POST",
+      data: $(this).serializeArray(),
+      success: function(data, textStatus, jqXHR) {
+        console.log("success... ", data);
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+        console.log("error... ", textStatus);
+      }
+    });
+  })
+</script>

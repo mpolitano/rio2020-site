@@ -1,11 +1,8 @@
 <nav class="navbar navbar-default header header-navigation">
 
   <div class="container">
-          <a class="navbar-brand" href="<%= landing_index_url %>">
-      <%= image_tag('logo_rio.png')  %>
-      
-        <p> <%= t 'date' %>, UNRC</p>
-
+        <!--   <a class="navbar-brand" href="<%= landing_index_url %>">
+      <%= image_tag('logo_rio.png')  %> -->
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
@@ -15,13 +12,20 @@
         <span class="icon-bar"></span>
       </button>
 
-      </a> -->
+      </a> 
     </div>
 
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse  navbar-collapse" id="main-menu">
+        <!-- <%= t 'date' %>, UNRC -->
+        <a class="navbar-brand" href="<%= landing_index_url %>">
+        <%= image_tag('logo-rio.png')  %> 
+
+    </a>
+
       <ul class="nav navbar-nav navbar-right">
+
         <li><a href="<%= landing_index_url %>">Home</a></li>
         <li>
           <a href="<%= static_pages_school_url %>"><%= t 'school' %></a>

@@ -11,11 +11,27 @@ en:
   contact_description: Contact us
   guest_talks: Guest Talk
   plenary_activities: PLENARY ACTIVITIES
+  rio_history: >
+    La Escuela de Verano se realiza anualmente desde 1994, organizada por el Departamento de Computación, 
+    de la Facultad de Ciencias Exactas Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto. 
+    Los cursos que conforman dicha Escuela de Verano han sido dictados por especialistas, 
+    docentes e investigadores de primer nivel, tanto del país como del extranjero. 
+    A estos cursos han asistido profesionales, docentes, alumnos de instituciones educativas 
+    de todo el país y de países limítrofes.
+    La RIO 2020 se desarrollará del 24 al 28 de Febrero de 2020, y estará compuesta por 
+    cursos intensivos, dictados por destacados académicos. 
+    Además, se entregarán certificados de asistencia a quienes asistan al menos un 80% de 
+    las clases dictadas y, en caso de cumplir satisfactoriamente con la evaluación requerida,
+    se entregará un certificado de aprobación.
+    Los principales objetivos de la escuela son:
+    Brindar a los alumnos y docentes de las carreras de computación de la UNRC, de otras universidades nacionales y a toda la comunidad informática, cursos intensivos y breves de actualización y especialización dictados por docentes e investigadores de primer nivel.
+    Poner al alcance de los alumnos de las carreras de computación de la UNRC una visión amplia y diversa del campo de las Ciencias Informáticas y facilitar el intercambio académico con otras casas de estudio.
+    Promover la participación de los alumnos de las carreras de Computación de la UNRC en otros eventos similares en Universidades del país y del extranjero.
 
   course: Course %{number}
   course_charge: On charge of
   course_description: Courses of XXIII School of Computing
-  date: October 14 to 18
+  date: February 17 to 21
   footer_the_conference_description: The congress cover several areas through
     workshops, coordinate by experts. In these Workshops there are preented
     scientific works evaluated by foreign and local researchers.
@@ -23,7 +39,7 @@ en:
   english_course: This course will be in english
   index_talks: Talks
   index_courses: Courses
-  index_registration: To register complete the following formularie
+  index_registration: Open soon
   index_sponsors_desc: sponsors
   index_works: Works presentation
   information: Information
@@ -37,7 +53,9 @@ en:
     federal reaching. It acts as a meeting point for researches, teaches,
     grade/postgrade students and IT practicioners.
   conference: Conference
-  congress_title: RIO 2020
+  congress_title: Summer School of Informatic
+  congress_title1: RIO 2020
+  course_title: Courses of Summer School of Informatic
   organize: Organize
   paper_format: Paper Format
   platinium: Platinium
@@ -93,12 +111,22 @@ en:
     be accessible to any Computer Science student.
   course4_prerequisites: >
     Basic knowledge on discrete mathematics and propositional (boolean) logic.
-  course2_description: The aim of this course is to convey the main concepts 
-    of the software development technique known as  Test Driven Development (TDD), 
-    through practical and everyday programming examples. This course starts with a brief 
-    theoretical introduction, and then concentrates in practical programming exercises, 
-    especially designed so that students can master the technique, as we believe that 
-    'the best way to learn is by doing'
+  course2_description: Differential Privacy offers ways to answer statistical queries about
+      sensitive data while providing strong provable privacy guarantees
+      ensuring that the presence or absence of a single individual in the
+      data has a negligible statistical effect on the query's result.
+      Differential privacy is becoming a gold standard in data privacy and
+      it is now used by statistical agencies like the US Census Bureau and
+      companies like Apple, Google, and Uber.
+      This course will focus on fundamental results about the theory
+      and practice of differential privacy and how to use it in concrete
+      applications. In particular, the course will introduce students to
+      some fundamental mechanisms for building differentially private queries.
+      The course will also present a novel framework for programming
+      such queries and how to use them to design privacy-preserving applications
+      that take into account not only the privacy of individuals but also the accuracy
+      of obtained statistical results. This tool has been developed by the speakers
+      and their collaborators.
   course3_description1:  >
     In the last few years, probabilistic programming languages (PPLs) have 
     received increasing attenting, both from academia and industry. To a great extent, this is 

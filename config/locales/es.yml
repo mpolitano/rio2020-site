@@ -1,4 +1,5 @@
 es:
+  congress_title: Escuela de Verano de Ciencias Informáticas
   congress_title1: RIO 2020
   navbar:
     about: Autoridades
@@ -31,6 +32,7 @@ es:
   guest_talks: Charla Invitada
   plenary_activities: ACTIVIDADES PLENARIAS
   contact_description: Contactenos por cualquier duda o consulta
+  course_title: Cursos de la Escuela de Ciencias Informáticas
   course: Curso %{number}
   course_charge: A cargo de
   course_description: Cursos de la XXIII Escuela Internacional informática
@@ -43,7 +45,7 @@ es:
   english_course: Este curso será dictado en inglés.
   index_talks: Charlas
   index_courses: Cursos
-  index_registration:  Para realizar la inscripcion al Congreso, complete el Formulario de Inscripción
+  index_registration:  Proximamente..
   index_sponsors_desc: Los siguientes son los auspiciantes del evento
   index_works: Presentación de trabajos
   information: Información
@@ -51,7 +53,7 @@ es:
   international_school_desc: Estos son los profesores que estarán disertando en la escuela del congreso
   paper_format: Formato Paper
   school: Escuela
-  congress_title: Escuela de Verano de Ciencias Informáticas
+  congress_title1e: Escuela de Verano de Ciencias Informáticas
   organize: Organizan
   organization_access: Acceso a la Organización
   platinium: Platino
@@ -108,11 +110,22 @@ es:
     estudiante de la disciplina. .
   course4_prerequisites: >
     Conocimientos básicos de matemática discreta y de lógica booleana 
-  course2_description: El objetivo de este curso es transmitirte la técnica de desarrollo 
-    ágil denominada Test Driven Development (TDD), utilizando para ello ejemplos prácticos y 
-    cotidianos. El curso parte de una breve introducción teórica para luego concentrarse en 
-    ejercicios prácticos especialmente preparados para que aprendas la técnica, puesto que 
-    creemos que 'la mejor manera de aprender es haciendo'.
+  course2_description: Differential Privacy offers ways to answer statistical queries about
+      sensitive data while providing strong provable privacy guarantees
+      ensuring that the presence or absence of a single individual in the
+      data has a negligible statistical effect on the query's result.
+      Differential privacy is becoming a gold standard in data privacy and
+      it is now used by statistical agencies like the US Census Bureau and
+      companies like Apple, Google, and Uber.
+      This course will focus on fundamental results about the theory
+      and practice of differential privacy and how to use it in concrete
+      applications. In particular, the course will introduce students to
+      some fundamental mechanisms for building differentially private queries.
+      The course will also present a novel framework for programming
+      such queries and how to use them to design privacy-preserving applications
+      that take into account not only the privacy of individuals but also the accuracy
+      of obtained statistical results. This tool has been developed by the speakers
+      and their collaborators.
   course3_description1:  >
     En los últimos años los lenguajes de programación probabilística (PPLs) han recibido una 
     enorme atención, tanto desde la academia como desde la industria. En gran medida, esto se 
@@ -154,6 +167,8 @@ es:
   science_committee: COMITÉ CIENTíFICO
   organizer_committee: "COMITÉ \n ORGANIZADOR"
   
+
+
 
 
 

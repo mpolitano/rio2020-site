@@ -8,17 +8,84 @@
   </div><!-- /.container -->
 </section><!-- /.page-title -->
 
-<section class="event-sponsor sec-pad">
-  <div class="container">
-    <div class="sec-title text-center">
-      <h2><%= t 'school' %></h2>
-    </div>
 
-  <div align="left">   
-    <strong> PROXIMAMENTE... </strong>
-</div>
+<section class="school">
+  <div>
+    <center>
+      <h2><%= t 'course_title' %></h2>
+    </center>
+    <ul class="courses">
+      <li>
+        <h3> <bold><%= t 'course', number: 1 %></bold>: <a href="#" onclick="toggleCourse('curso1'); return false;">Software Testing</a></h3>
+        <h4> <%= t 'course_charge' %>: <%= link_to 'Marcelo D’Amorim', 'https://www.cin.ufpe.br/~damorim/', target: '_blank' %></h4>
+<!--         <h5> <%= fa_icon "map-marker" %> ... </h5>         
+ -->
+        <div id="curso1" class="description">
+          <%= t 'english_course' %>
+          <br><br>
+          <strong><%= t 'course_description' %></strong> <br>
+          Software Testing is an approach to assure software quality that is widely adopted in industry. The goal of this course is to introduce Software Testing to students of various backgrounds. The course will cover concepts at different levels. The first two days of the course will cover basic material (e.g., definitions, coverage adequacy, etc.) to students that have no exposure to the discipline. Then, progressively, the course will cover more advanced concepts (e.g., fuzzing, symbolic execution, bounded model checking) and problems investigated in academic research.
+          <div class="single-speaker">
+           <div class="img-box">
+            <%= image_tag('speakers/marcelodamorim.jpg', size: '250x250') %>
+            <div class="overlay-box">
+              <div class="display-table">
+              </div><!-- /.display-table -->
+            </div><!-- /.overlay-box -->
+          </div><!-- /.img-box -->
+          <h3><%= link_to 'Marcelo D’Amorim', 'https://www.cin.ufpe.br/~damorim/', target: '_blank' %></h3>
+          <p><%= t 'uni_brasil' %></p>
+          </div><!-- /.single-speaker -->
+         </div>
+      </li>
+</ul>
+    <ul class="courses">
+      <li>
+        <h3> <bold><%= t 'course', number: 2 %></bold>: <a href="#" onclick="toggleCourse('curso2'); return false;">A programming language approach for Differential Privacy with accuracy</a></h3>
+        <h4> <%= t 'course_charge' %>: <%= link_to 'Marco Gaboardi', 'http://cs-people.bu.edu/gaboardi/', target: '_blank' %> y <%= link_to 'Alejandro Russo', 'http://www.cse.chalmers.se/~russo/', target: '_blank' %> </h4>
+<!--         <h5> <%= fa_icon "map-marker" %> ... </h5>         
+ -->
+        <div id="curso2" class="description">
+          <br><br>
+          <strong><%= t 'course_description' %></strong> <br>
+              <%= t 'course2_description' %>
+        <div class="row">    
+          <div class="col-md-4">   
+            <div class="single-speaker">
+             <div class="img-box">
+              <%= image_tag('speakers/gaboardi.png', size: '250x250') %>
+              <div class="overlay-box">
+                <div class="display-table">
+                </div><!-- /.display-table -->
+              </div><!-- /.overlay-box -->
+            </div><!-- /.img-box -->
+            <h3><%= link_to 'Marco Gaboardi', 'http://cs-people.bu.edu/gaboardi/', target: '_blank' %></h3>
+            <p>...</p>
+            </div><!-- /.single-speaker -->
+         </div>
+       
+        <div class="col-md-8">    
+         <div class="single-speaker">   
+           <div class="img-box">    
+             <%= image_tag('speakers/russo.png', size: '250x250') %>    
+             <div class="overlay-box">    
+               <div class="display-table">    
+                 <div class="display-table-cell">   
+                 </div><!-- /.display-table-cell -->    
+               </div><!-- /.display-table -->   
+             </div><!-- /.overlay-box -->   
+           </div><!-- /.img-box -->   
+          <h3><%= link_to 'Alejandro Russo', 'http://www.cse.chalmers.se/~russo', target: '_blank' %></h3>         
+          <p>...</p>   
+         </div><!-- /.single-speaker -->    
+       </div><!-- /.col-md-3 -->   
+      </div> 
+      </li>
+</ul>
 </div>
 </section>
+
+
 
 <script type="text/javascript">
 function toggleCourse(id) {

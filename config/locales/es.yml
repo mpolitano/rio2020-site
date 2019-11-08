@@ -110,22 +110,17 @@ es:
     estudiante de la disciplina. .
   course4_prerequisites: >
     Conocimientos básicos de matemática discreta y de lógica booleana 
-  course2_description: Differential Privacy offers ways to answer statistical queries about
-      sensitive data while providing strong provable privacy guarantees
-      ensuring that the presence or absence of a single individual in the
-      data has a negligible statistical effect on the query's result.
-      Differential privacy is becoming a gold standard in data privacy and
-      it is now used by statistical agencies like the US Census Bureau and
-      companies like Apple, Google, and Uber.
-      This course will focus on fundamental results about the theory
-      and practice of differential privacy and how to use it in concrete
-      applications. In particular, the course will introduce students to
-      some fundamental mechanisms for building differentially private queries.
-      The course will also present a novel framework for programming
-      such queries and how to use them to design privacy-preserving applications
-      that take into account not only the privacy of individuals but also the accuracy
-      of obtained statistical results. This tool has been developed by the speakers
-      and their collaborators.
+  course2_description: 
+    La privacidad diferencial ofrece maneras de responder a consultas estadisticas sobre datos sensibles al tiempo que provee solidas garantias de privacidad demostrables las cuales aseguran que la presencia o ausencia de un solo individuo en los datos tiene un efecto estadistico insignificante en el resultado de la consulta.
+    Differential privacy esta convirtiendose en una referencia dentro del área
+    de privacidad de datos y esto es ahora usado agencias de estadisticas como  US Census Bureau y empresas como Apple, Google, and Uber.
+    Este curso va a concentrarse en los resultados fundamentales sobre la teoria y practica de 
+    differential privacy y como usarlo en ejemplos concretos.
+    En particular, el curso introducirá a los estudiantes algunos mecanismos fundamentales
+    para construir consultas de differentially private. Tambien, el curso presentará un innovador framework para programar tales consultas y
+    como usarlo para diseñar aplicaciones de preservacion de privacidad que toman en cuenta 
+    no solo la privacidad de los individuos sino tambien, la precisión de los resultados estadísticos obtenidos. 
+    Esta herramiente ha sido desarrollada por los speakers y sus colaboradores.
   course3_description1:  >
     En los últimos años los lenguajes de programación probabilística (PPLs) han recibido una 
     enorme atención, tanto desde la academia como desde la industria. En gran medida, esto se 

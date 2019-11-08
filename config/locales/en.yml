@@ -1,16 +1,14 @@
 en:
+  congress_title: Escuela de Verano de Ciencias Informáticas
+  congress_title1: RIO 2020
   navbar:
-    about: Authorities
-  accepted_papers: Accepted Papers
-  accepted_papers_description: Accepted papers list can be found in the following link
-  accomodations: Accomodations
-  athenaeum: Athenaeum
-  authorities: Authorities
-  contact: Contact
-  contact_us: Contact us
-  contact_description: Contact us
-  guest_talks: Guest Talk
-  plenary_activities: PLENARY ACTIVITIES
+    about: Autoridades
+  accepted_papers: Papers aceptados
+  accepted_papers_buetion: En el siguiente archivo se encuentran los papers
+    que fueron aceptados por los evaluadores.
+  accomodations: Alojamientos
+  athenaeum: Ateneo
+  authorities: Autoridades
   rio_history: >
     La Escuela de Verano se realiza anualmente desde 1994, organizada por el Departamento de Computación, 
     de la Facultad de Ciencias Exactas Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto. 
@@ -28,140 +26,146 @@ en:
     Poner al alcance de los alumnos de las carreras de computación de la UNRC una visión amplia y diversa del campo de las Ciencias Informáticas y facilitar el intercambio académico con otras casas de estudio.
     Promover la participación de los alumnos de las carreras de Computación de la UNRC en otros eventos similares en Universidades del país y del extranjero.
 
-  course: Course %{number}
-  course_charge: On charge of
-  course_description: Courses of XXIII School of Computing
-  date: February 17 to 21
-  footer_the_conference_description: The congress cover several areas through
-    workshops, coordinate by experts. In these Workshops there are preented
-    scientific works evaluated by foreign and local researchers.
-  gold: Gold
-  english_course: This course will be in english
-  index_talks: Talks
-  index_courses: Courses
-  index_registration: Open soon
-  index_sponsors_desc: sponsors
-  index_works: Works presentation
-  information: Information
-  international_school: international School of Computing
-  international_school_desc: The following teachers will be in the congress school
-  cacic_history: The XXV Argentinean Conference of Computer Science is going to 
-    take place for first time in Cordoba Province, during the second week of
-    October, at headquarters of Facultad de Ciencias Exactas, Físico-Químicas y
-    Naturales of Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba,
-    Argentina. CACIC is the national event with greatest participation and more
-    federal reaching. It acts as a meeting point for researches, teaches,
-    grade/postgrade students and IT practicioners.
-  conference: Conference
-  congress_title: Summer School of Informatic
-  congress_title1: RIO 2020
-  course_title: Courses of Summer School of Informatic
-  organize: Organize
-  paper_format: Paper Format
-  platinium: Platinium
-  school: School
-  organization_access: Organization Access
-  registration: Registration
-  registrations: Registrations
-  scholarships: Scholarships
-  send_camera_ready: Send Camera Ready
-  send_message: Send
-  speakers: Speakers
-  schedule: Schedule
-  sponsors: Sponsors
-  sponsors_thanks: We appreciate their support
-  talks: Talks
-  the_conference: Conference
-  the_school: School
-  the_athenaeum: Athenaeum
-  the_conference_description: Argentinean Congress of Computer Science (CACIC)
-    is organized by the national universitites network with informatic careers
-    (RedUNCI). CACIC gather since 1995 researches, teachers, practicioners and
-    students linked with computing disciplines
-  the_school_description: The international School of Computing associated with
-    CACIC gives intensive courses of training to grade students, posgrade
-    students, graduates and researchers, about diverse topics of interest to
-    computer science
-  the_athenaeum_description: Athenaeum of Universitaries Teachers of computing
-    gather teachers and students of superior level, involved in the computer
-    discipline, to discuss, analyze and study different apporaches of
-    teaching-learning, curricular aspects, an other interest topics for the
-    teaching discipline
-  transportations: Transportations
-  welcome: Welcome to
-  write_us: Write us
-  name_course2: Robust Software Construction with TDD
+  cursos: Cursos
+  contact: Contacto
+  contact_us: Contactenos
+  guest_talks: Charla Invitada
+  plenary_activities: ACTIVIDADES PLENARIAS
+  contact_description: Contactenos por cualquier duda o consulta
+  course_title: Cursos de la Escuela de Ciencias Informáticas
+  course: Curso %{number}
+  course_charge: A cargo de
+  course_description: Cursos de la XXIII Escuela Internacional informática
+  date: 17 al 21 Febrero
+  footer_the_conference_description: El Congreso cubre diferentes áreas a través
+    de la organización de Workshops, coordinados por expertos en los temas del
+    área. En estos Workshops se presentan trabajos científicos evaluados por
+    investigadores del país y del exterior.
+  gold: Oro
+  english_course: Este curso será dictado en inglés.
+  index_talks: Charlas
+  index_courses: Cursos
+  index_registration:  Proximamente..
+  index_sponsors_desc: Los siguientes son los auspiciantes del evento
+  index_works: Presentación de trabajos
+  information: Información
+  international_school: Escuela de Verano de Ciencias Informáticas
+  international_school_desc: Estos son los profesores que estarán disertando en la escuela del congreso
+  paper_format: Formato Paper
+  school: Escuela
+  congress_title1e: Escuela de Verano de Ciencias Informáticas
+  organize: Organizan
+  organization_access: Acceso a la Organización
+  platinium: Platino
+  registration: Inscripción
+  registrations: Registraciones
+  registration_form: Formulario
+  scholarships: Becas
+  send_camera_ready: Enviar Camera Ready
+  send_message: Enviar Mensaje
+  schedule: Cronograma
+  speakers: Disertantes
+  sponsors: Auspiciantes
+  sponsors_thanks: Agradecemos a los siguientes auspiciantes por su apoyo al evento
+  talks: Charlas de Empresas
+  the_conference: El Congreso
+  the_school: La Escuela
+  the_athenaeum: El Ateneo
+  the_conference_description: El Congreso Argentino de Ciencias de la
+    Computación (CACIC) es organizado por la Red de Universidades Nacionales con
+    carreras en Informática (RedUNCI). CACIC reúne desde 1995 a investigadores,
+    docentes, profesionales y alumnos de grado y postgrado vinculados con la
+    disciplina Informática.
+  the_school_description: La Escuela Internacional de Informática asociada a
+    CACIC brinda cursos intensivos de formación destinados a estudiantes de
+    grado, estudiantes de postgrado, graduados e investigadores, sobre diversas
+    temáticas de interés en Ciencias de la Computación.
+  the_athenaeum_description: El Ateneo de Profesores Universitarios de
+    Computación reúne a docentes y estudiantes del nivel superior, involucrados
+    en la disciplina informática, para discutir, analizar y estudiar enfoques de
+    enseñanza-aprendizaje, aspectos curriculares, y otros temas de interés para
+    la enseñanza de la disciplina.
+  transportation: Transportes
+  welcome: Bienvenido a
+  write_us: Escribanos por cualquier consulta
+  name_course2: Construcción de Software Robusto con TDD
   name_course3: >
-    Probabilistic Programming: Theory and Practice
-  name_course4: Logic for Computing
-  course_prerequisites: Course prerequisites
-  course_description: Course 
-  course2_detail: Detailed description of the course (in Spanish)
+    Programación Probabilística: Teoría y Práctica  
+  name_course4: Lógica para Computación
+  course_prerequisites: Requisitos del Curso
+  course_description: Contenido del Curso
+  course2_detail: Descripción completa del curso
   course2_prerequisites1: 
-    It's important for attendants to have sufficient knowledge on programming, 
-    knowledge on programming, as this course is hands-on.
+    Es importante que se tengan conocimientos de programación ya que es un curso 
+    completamente práctico. 
   course2_prerequisites2: 
-    Acceptable languages are Smalltalk, Java, C#, Python, Ruby, JavaScript and PHP.
+    Los lenguajes a usar pueden ser Smalltalk, Java, C#, Python, Ruby, JavaScript y PHP.
   course2_prerequisites3: 
-    The software requirements for taking the course (this is for students' own computers) is simply 
-    to have the programming language installed (with a suitable IDE), and a corresponding xUnit framework.
-  course3_prerequisites: While it is recommended that attendants are already familiar with basic 
-    concepts from probability theory and programming languages, this course 
-    will go through all the necessary concepts. It is a self-content course that should 
-    be accessible to any Computer Science student.
+    Los requerimientos de máquina es que tengan el lenguaje instalado con el IDE y 
+    el framework xUnit correspondiente. 
+  course3_prerequisites: 
+    Si bien es recomendable que los asistentes estén familiarizados con conceptos básicos 
+    de teoría de la probabilidad y lenguajes de programación, el curso repasará todas las 
+    nociones necesaria para su desarrollo, siendo autocontenido y accesible a cualquier 
+    estudiante de la disciplina. .
   course4_prerequisites: >
-    Basic knowledge on discrete mathematics and propositional (boolean) logic.
-  course2_description: Differential Privacy offers ways to answer statistical queries about
-      sensitive data while providing strong provable privacy guarantees
-      ensuring that the presence or absence of a single individual in the
-      data has a negligible statistical effect on the query's result.
-      Differential privacy is becoming a gold standard in data privacy and
-      it is now used by statistical agencies like the US Census Bureau and
-      companies like Apple, Google, and Uber.
-      This course will focus on fundamental results about the theory
-      and practice of differential privacy and how to use it in concrete
-      applications. In particular, the course will introduce students to
-      some fundamental mechanisms for building differentially private queries.
-      The course will also present a novel framework for programming
-      such queries and how to use them to design privacy-preserving applications
-      that take into account not only the privacy of individuals but also the accuracy
-      of obtained statistical results. This tool has been developed by the speakers
-      and their collaborators.
+    Conocimientos básicos de matemática discreta y de lógica booleana 
+  course2_description: 
+    La privacidad diferencial ofrece maneras de responder a consultas estadisticas sobre datos sensibles al tiempo que provee solidas garantias de privacidad demostrables las cuales aseguran que la presencia o ausencia de un solo individuo en los datos tiene un efecto estadistico insignificante en el resultado de la consulta.
+    Differential privacy esta convirtiendose en una referencia dentro del área
+    de privacidad de datos y esto es ahora usado por agencias de estadisticas como  US Census Bureau y empresas como Apple, Google, and Uber.
+    Este curso va a concentrarse en los resultados fundamentales sobre la teoria y practica de 
+    differential privacy y como usarlo en ejemplos concretos.
+    En particular, el curso introducirá a los estudiantes algunos mecanismos fundamentales
+    para construir consultas de differentially private. Tambien, el curso presentará un innovador framework para programar tales consultas y
+    como usarlo para diseñar aplicaciones de preservacion de privacidad que toman en cuenta 
+    no solo la privacidad de los individuos sino tambien, la precisión de los resultados estadísticos obtenidos. 
+    Esta herramiente ha sido desarrollada por los speakers y sus colaboradores.
+     Esta herramiente ha sido desarrollada por los speakers y sus colaboradores.
   course3_description1:  >
-    In the last few years, probabilistic programming languages (PPLs) have 
-    received increasing attenting, both from academia and industry. To a great extent, this is 
-    due to the way in which these languages have revolutionized artificial intelligence. 
-    For instance, modern PPLs can do in 50 lines of code what previously required over 1000.
+    En los últimos años los lenguajes de programación probabilística (PPLs) han recibido una 
+    enorme atención, tanto desde la academia como desde la industria. En gran medida, esto se 
+    debe a la manera en la que han revolucionado los métodos de la inteligencia artificial. 
+    Por ejemplo, los PPLs actuales pueden hacer en 50 líneas lo que antes llevaba más de 1000.
   course3_description2:  >
-    The main objective of this course is to introduce students to the "world" of PPLs, in a broad manner,
-    covering both practical aspects and foundations. We will start by discussing the benefits and 
-    potential of probabilistic computational models, going through their main applications, 
-    putting special emphasis on the cause of this revolution: artificial intelligence and bayesian 
-    reasoning. The second part of the course will cover the main challenges in the design and 
-    implementation of PPLs. Finally, we will discuss the formal semantics and different 
-    verification techniques for probabilistic programs.
+    El objetivo de este curso es introducir a sus asistentes al "mundo" de los PPLs, 
+    de una manera amplia, cubriendo tanto aspectos prácticos como de fundamentos. Comenzaremos 
+    estudiando los beneficios y posibilidades de los modelos de cómputo probabilísticos, 
+    recorriendo sus principales aplicaciones, y poniendo especial énfasis en el motor 
+    de esta revolución: la inteligencia artificial y el razonamiento Bayesiano. En la segunda 
+    parte del curso estudiaremos los principales desafíos en el diseño e implementación de los 
+    PPLs. Por último cubriremos la semántica formal y distintas técnicas de verificación de 
+    programas probabilísticos.
   course4_description1:  >
-    Propositional logic: definitions and limitations. 
+    Lógica proposicional: definiciones y limitaciones. 
   course4_description2:  >
-    Predicate logic: definitions and limitations.
+    Lógica de predicados: definiciones y limitaciones. 
   course4_description3:  >
-    Relational logic. 
+    Lógica relacional. 
   course4_description4:  >
-    Program specification: weakest precondition, partial and total program correctness. 
+    Especificación de programas: precondición más débil, corrección parcial y corrección total de programas.
   course4_description5:  >
-    The Java Modeling Language: a language for program specification.  
+    Java Modeling Language: un lenguaje para la especificación de programas. 
   course4_description6:  >
-    Automated fault localization. 
+    Detección automática de fallas en programas. 
   course4_description7:  >
-    Automated program repair.
-  uni_uba: University of Buenos Aires and 10Pines
-  uni_itba: Buenos Aires Institute of Technology
-  uni_chile: University of Chile
-  uni_brasil: Federal University of Pernambuco
-  uni_lito_conicet: University of Litoral and CONICET
-  to_register: The registration has been closed.
-  to_scholarship: The scholarship application has been closed.
-  academic_committee: ACADEMIC COMMITTEE
-  science_committee: SCIENTIFIC COMITTEE
-  organizer_committee: ORGANIZER COMITTEE
+    Reparación automática de fallas en programas.
+  uni_uba: Universidad de Buenos Aires y 10Pines
+  uni_itba: Instituto Tecnológico de Buenos Aires
+  uni_chile: Universidad de Chile
+  uni_brasil: Universidad Federal de Pernambuco
+  uni_chilecito: Universidad Nacional de Chilecito
+  uni_nordeste: Universidad Nacional del Nordeste
+  uni_lito_conicet: Universidad Nacional del Litoral y CONICET
+  to_register: La registraciones se encuentran cerradas.
+  to_scholarship: El período de solicitud de becas ha finalizado.
+  academic_committee: COMITÉ ACADÉMICO
+  science_committee: COMITÉ CIENTíFICO
+  organizer_committee: "COMITÉ \n ORGANIZADOR"
+  
+
+
+
+
+
 

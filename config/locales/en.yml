@@ -112,16 +112,15 @@ en:
     Conocimientos básicos de matemática discreta y de lógica booleana 
   course2_description: 
     La privacidad diferencial ofrece maneras de responder a consultas estadisticas sobre datos sensibles al tiempo que provee solidas garantias de privacidad demostrables las cuales aseguran que la presencia o ausencia de un solo individuo en los datos tiene un efecto estadistico insignificante en el resultado de la consulta.
-    Differential privacy esta convirtiendose en una referencia dentro del área
-    de privacidad de datos y esto es ahora usado por agencias de estadisticas como  US Census Bureau y empresas como Apple, Google, and Uber.
+    privacidad diferencial esta convirtiendose en una referencia dentro del área
+    de privacidad de datos y esto es ahora usado por agencias de estadisticas como US Census Bureau y empresas como Apple, Google, y Uber.
     Este curso va a concentrarse en los resultados fundamentales sobre la teoria y practica de 
-    differential privacy y como usarlo en ejemplos concretos.
+    privacidad diferencial y como usarlo en ejemplos concretos.
     En particular, el curso introducirá a los estudiantes algunos mecanismos fundamentales
-    para construir consultas de differentially private. Tambien, el curso presentará un innovador framework para programar tales consultas y
+    para construir consultas de privacidad diferencial. Tambien, el curso presentará un innovador framework para programar tales consultas y
     como usarlo para diseñar aplicaciones de preservacion de privacidad que toman en cuenta 
     no solo la privacidad de los individuos sino tambien, la precisión de los resultados estadísticos obtenidos. 
     Esta herramiente ha sido desarrollada por los speakers y sus colaboradores.
-     Esta herramiente ha sido desarrollada por los speakers y sus colaboradores.
   course3_description1:  >
     En los últimos años los lenguajes de programación probabilística (PPLs) han recibido una 
     enorme atención, tanto desde la academia como desde la industria. En gran medida, esto se 

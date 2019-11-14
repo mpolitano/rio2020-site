@@ -18,21 +18,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse  navbar-collapse" id="main-menu">
         <!-- <%= t 'date' %>, UNRC -->
-        <a class="navbar-brand" href="<%= landing_index_url %>">
-        <%= image_tag('logo-ciudad.png', size: '100000')  %> </a>
+        <a class="navbar-brand"  href="<%= landing_index_url %>">
+          <%= image_tag('logo-R.png', size: '100x200') %>
+        </a> 
 
       <ul class="nav navbar-nav navbar-right">
 
-        <li><a href="<%= landing_index_url %>">Home</a></li>
+        <li><a href="<%= landing_index_url %>">Principal</a></li>
         <li>
           <a href="<%= static_pages_school_url %>"><%= t 'school' %></a>
         </li>
         <li><a href="<%= static_pages_schedule_url %>"><%= t 'schedule' %></a>
-                      <li><a href="<%= static_pages_inscription_url %>"><%= t 'registration' %></a>
+        <li><a href="<%= static_pages_inscription_url %>"><%= t 'registration' %></a>
 
 
         <li><a href="<%= static_pages_sponsors_url %>"><%= t 'sponsors' %></a></li>
-        <li><a href="https://dc.exa.unrc.edu.ar/rio2019/es/info2019">Edicion 2019</a></li>
+        <li><a href="https://dc.exa.unrc.edu.ar/rio2019/es/info2019" target="_blank">Edicion 2019</a></li>
 
         <li>
         <a href="#"><%= t 'information' %></a>

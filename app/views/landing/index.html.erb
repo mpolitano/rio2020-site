@@ -3,15 +3,14 @@
     <%#= video_tag "output.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "video" %>
    <center>
     <div class="col-md-20 col-sm-20 col-xs-20 pull-left">
-      <h2 class="stopfade"><%= t 'congress_title' %> </h2>
-      <h2 class="stopfade"><%= t 'congress_title1' %> </h2>
+      <h2 ><%= t 'congress_title' %> </h2>
+      <h2 ><%= t 'congress_title1' %> </h2>
 
       <br>
       <p> <%= t 'date' %>, UNRC</p>
       <ul class="list-inline coundown">
         <!-- content loading via js -->
       </ul>
-      <a class="twitter-timeline" data-width="580" data-height="600" data-theme="dark" href="https://twitter.com/escuelaRio?ref_src=twsrc%5Etfw">Tweets by escuelaRio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div><!-- /.col-md-6 -->
   </center>
 </div><!-- /container -->
@@ -24,10 +23,7 @@
 <section class="about-section sec-pad">
   <div class="container">
 
-    <div class="col-md-20 col-sm-20 col-xs-20 pull-right">
-         
-    </div>
-    <div class="col-md-6">
+    <div class="col-md-6" align="justify">
       <br />
       <br />
       <h4><%= t 'welcome' %></h4>
@@ -41,11 +37,16 @@
       <!-- <a href="#" class="btn">Buy Ticket</a> &emsp; <a href="#" class="btn btn-inverse">Read More</a> -->
 
     </div><!-- /.col-md-6 -->
-    <div class="col-md-20 sepia">
+      <div class="col-md-6" >
+
+ <a class="twitter-timeline" data-width="580" data-height="600" data-theme="dark" href="https://twitter.com/escuelaRio?ref_src=twsrc%5Etfw">Tweets by escuelaRio</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+<!--     <div class="col-md-20 sepia">
       <br><br><br><br><br><br><br><br><br>
       <%= image_tag('curso2019.jpg', size: '570x400') %>
-    </div><!-- /.col-md-6 -->
-  </div><!-- /.container -->
+    </div> --><!-- /.col-md-6 -->
+ <!--  </div> --><!-- /.container -->
+
 </section><!-- /.about-section -->
 
 <section class="call-to-action">

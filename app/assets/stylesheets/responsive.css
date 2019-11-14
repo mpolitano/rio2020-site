@@ -28,16 +28,16 @@
     .navbar-default .navbar-toggle {
         display: block;
         margin-right: 0;
-        border-color: #FC5A1B;
+        border-color: #1b26fc;
         background-color: transparent !important;
     }
     .navbar-toggle {
         margin-top: 36px;
         margin-bottom: 0;
     }
-    .navbar-default .navbar-toggle:hover {border-color: #FC5A1B;}
-    .navbar-default .navbar-toggle .icon-bar {background: #FC5A1B;}
-    .navbar-default .navbar-toggle:hover .icon-bar {background: #FC5A1B;}
+    .navbar-default .navbar-toggle:hover {border-color: #1b26fc;}
+    .navbar-default .navbar-toggle .icon-bar {background: #1b26fc;}
+    .navbar-default .navbar-toggle:hover .icon-bar {background: #1b26fc;}
     .navbar-collapse.collapse {
         display: none!important;
         height: 0!important;
@@ -46,7 +46,7 @@
         width: 100%;
     }
     .navbar-default .navbar-collapse {
-        background: #FC5A1B;
+        background: #1b26fc;
         padding: 0px 0px !important;
         padding-bottom: 0px !important;
         border: 1px dashed #282828;

@@ -10,24 +10,24 @@ Rails.application.routes.draw do
 
     scope "(:locale)", locale: /es|en/ do
       get 'landing/index'
-      get 'static_pages/about'
-      get 'static_pages/contact'
-      get 'static_pages/sponsors'
+      get 'about', to: 'static_pages#about'
+      get 'contact', to: 'static_pages#contact'
+      get 'sponsors', to: 'static_pages#sponsors'
 
-      get 'static_pages/cfp'
-      get 'static_pages/download_cpf'
-      get 'static_pages/accepted_paper'
-      get 'static_pages/download_accepted_paper'
-      get 'static_pages/schedule'
+      get 'cfp', to: 'static_pages#cfp'
+      get 'download_cpf', to: 'static_pages#download_cpf'
+      get 'accepted_paper', to: 'static_pages#accepted_paper'
+      get 'download_accepted_paper', to: 'static_pages#download_accepted_paper'
+      get 'schedule', to: 'static_pages#schedule'
 
 
 
-      get 'static_pages/inscription'
-      get 'static_pages/school'
-      get 'static_pages/talks'
+      get 'inscription', to: 'static_pages#inscription'
+      get 'school', to: 'static_pages#school'
+      get 'talks', to: 'static_pages#talks'
      
-      get 'static_pages/accommodation'
-      get 'static_pages/transport'
+      get 'accommodation', to: 'static_pages#accommodation'
+      get 'transport', to: 'static_pages#transport'
 
 
       get 'workshops/:slug', to: 'workshops#show'

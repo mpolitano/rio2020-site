@@ -80,9 +80,53 @@
       </li>
 </ul>
     <ul class="courses">
-<li><h3> <bold><%= t 'course', number: 3 %></bold>: <a href="#" onclick="toggleCourse('curso3'); return false;">Proximamente...</a></h3></li></ul>
-    <ul class="courses">
-<li><h3> <bold><%= t 'course', number: 4 %></bold>: <a href="#" onclick="toggleCourse('curso4'); return false;">Proximamente...</a></h3></li></ul>
+      <li>
+        <h3> <bold><%= t 'course', number: 3 %></bold>: <a href="#" onclick="toggleCourse('curso3'); return false;">Enfoques clásicos y neuronales a la Minería de Texto</a></h3>
+        <h4> <%= t 'course_charge' %>: <%= link_to 'Marcelo Errecalde ', 'http://www0.unsl.edu.ar/~merreca/', target: '_blank' %></h4>
+<!--         <h5> <%= fa_icon "map-marker" %> ... </h5>         
+ -->
+        <div id="curso3" class="description">
+          <br><br>
+          <strong><%= t 'course_description' %></strong> <br>
+          
+          <div class="single-speaker">
+           <div class="img-box">
+            <%= image_tag('speakers/errecalde.jpg', size: '250x250') %>
+            <div class="overlay-box">
+              <div class="display-table">
+              </div><!-- /.display-table -->
+            </div><!-- /.overlay-box -->
+          </div><!-- /.img-box -->
+          <h3><%= link_to 'Marcelo Errecalde', 'http://www0.unsl.edu.ar/~merreca/', target: '_blank' %></h3>
+          <p><%= t 'unsl' %></p>
+          </div><!-- /.single-speaker -->
+         </div>
+      </li>
+  </ul>
+   <ul class="courses">
+      <li>
+        <h3> <bold><%= t 'course', number: 4 %></bold>: <a href="#" onclick="toggleCourse('curso4'); return false;">Abstracciones en la Práctica de la Programación Funcional</a></h3>
+        <h4> <%= t 'course_charge' %>: <%= link_to 'Mauro Jaskelioff ', 'https://www.fceia.unr.edu.ar/~mauro/', target: '_blank' %></h4>
+<!--         <h5> <%= fa_icon "map-marker" %> ... </h5>         
+ -->
+        <div id="curso4" class="description">
+          <br><br>
+          <strong><%= t 'course_description' %></strong> <br>
+          
+          <div class="single-speaker">
+           <div class="img-box">
+            <%= image_tag('speakers/jaskelioff.jpg', size: '250x250') %>
+            <div class="overlay-box">
+              <div class="display-table">
+              </div><!-- /.display-table -->
+            </div><!-- /.overlay-box -->
+          </div><!-- /.img-box -->
+          <h3><%= link_to 'Mauro Jaskelioff', 'https://www.fceia.unr.edu.ar/~mauro/', target: '_blank' %></h3>
+          <p><%= t 'unr' %></p>
+          </div><!-- /.single-speaker -->
+         </div>
+      </li>
+  </ul>
 </div>
 </section>
 

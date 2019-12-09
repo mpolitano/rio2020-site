@@ -12,21 +12,16 @@ tw:
   guest_talks: Guest Talk
   plenary_activities: PLENARY ACTIVITIES
   rio_history: >
-    La Escuela de Verano se realiza anualmente desde 1994, organizada por el Departamento de Computación, 
-    de la Facultad de Ciencias Exactas Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto. 
-    Los cursos que conforman dicha Escuela de Verano han sido dictados por especialistas, 
-    docentes e investigadores de primer nivel, tanto del país como del extranjero. 
-    A estos cursos han asistido profesionales, docentes, alumnos de instituciones educativas 
-    de todo el país y de países limítrofes.
-    La RIO 2020 se desarrollará del 24 al 28 de Febrero de 2020, y estará compuesta por 
-    cursos intensivos, dictados por destacados académicos. 
-    Además, se entregarán certificados de asistencia a quienes asistan al menos un 80% de 
-    las clases dictadas y, en caso de cumplir satisfactoriamente con la evaluación requerida,
-    se entregará un certificado de aprobación.
-    Los principales objetivos de la escuela son:
-    Brindar a los alumnos y docentes de las carreras de computación de la UNRC, de otras universidades nacionales y a toda la comunidad informática, cursos intensivos y breves de actualización y especialización dictados por docentes e investigadores de primer nivel.
-    Poner al alcance de los alumnos de las carreras de computación de la UNRC una visión amplia y diversa del campo de las Ciencias Informáticas y facilitar el intercambio académico con otras casas de estudio.
-    Promover la participación de los alumnos de las carreras de Computación de la UNRC en otros eventos similares en Universidades del país y del extranjero.
+    The Summer School of Informatic has been held annually since 1994, organized by Computing Departament of the Exactc Physical-Chemical and natural Sciences Faculty of Univervesity of Rio Cuarto
+    The courses that make up this Summer School have been taught by specialists, teacher and researchers, both from Argentina and other country.
+    These courses have been attended by professionals, teacher and students from educational istitutions from all over country and from neighboring countries.
+    The RIO 2020 will be held from February 24 to 28, 2020, and will consist of intensive courses, taught by leading academics.
+    In adittion, certificates of assintance will be given to those who attend al least 80% of the classes taughy and, in case of satisfactorily fulfilling the required evaluation.
+    A certificate of approval will be delivered.
+    The main objectives of the school are:
+    Provide students and teachers of the computer careers of the UNRC, other national universities and the entire computer community, intensive and brief refresher and specialization courses taught by first-rate teachers and researchers.
+    Make available to the students of the computer careers of the UNRC a broad and diverse vision of the field of Computer Science and facilitate academic exchange with other houses of study.
+    Promote the participation of students of the UNRC's Computer careers in other similar events in Universities of the country and abroad.
 
   course: Course %{number}
   course_charge: On charge of
@@ -43,15 +38,9 @@ tw:
   index_sponsors_desc: sponsors
   index_works: Works presentation
   information: Information
-  international_school: international School of Computing
+  international_school: International School of Computing
   international_school_desc: The following teachers will be in the congress school
-  cacic_history: The XXV Argentinean Conference of Computer Science is going to 
-    take place for first time in Cordoba Province, during the second week of
-    October, at headquarters of Facultad de Ciencias Exactas, Físico-Químicas y
-    Naturales of Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba,
-    Argentina. CACIC is the national event with greatest participation and more
-    federal reaching. It acts as a meeting point for researches, teaches,
-    grade/postgrade students and IT practicioners.
+
   conference: Conference
   congress_title: Summer School of Informatic
   congress_title1: RIO 2020
@@ -164,4 +153,9 @@ tw:
   academic_committee: ACADEMIC COMMITTEE
   science_committee: SCIENTIFIC COMITTEE
   organizer_committee: ORGANIZER COMITTEE
+  soon: coming soon
+  location: Location
+  number: Number
+
+
 

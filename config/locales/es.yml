@@ -22,8 +22,11 @@ es:
     las clases dictadas y, en caso de cumplir satisfactoriamente con la evaluación requerida,
     se entregará un certificado de aprobación.
     Los principales objetivos de la escuela son:
+  rio_history1: >
     Brindar a los alumnos y docentes de las carreras de computación de la UNRC, de otras universidades nacionales y a toda la comunidad informática, cursos intensivos y breves de actualización y especialización dictados por docentes e investigadores de primer nivel.
+  rio_history2: >
     Poner al alcance de los alumnos de las carreras de computación de la UNRC una visión amplia y diversa del campo de las Ciencias Informáticas y facilitar el intercambio académico con otras casas de estudio.
+  rio_history3: >
     Promover la participación de los alumnos de las carreras de Computación de la UNRC en otros eventos similares en Universidades del país y del extranjero.
 
   cursos: Cursos
@@ -36,13 +39,16 @@ es:
   course: Curso %{number}
   course_charge: A cargo de
   course_description: Cursos de la XXIII Escuela Internacional informática
-  date: 17 al 21 Febrero
+  date: 17 al 22 Febrero
   footer_the_conference_description: El Congreso cubre diferentes áreas a través
     de la organización de Workshops, coordinados por expertos en los temas del
     área. En estos Workshops se presentan trabajos científicos evaluados por
     investigadores del país y del exterior.
   gold: Oro
   english_course: Este curso será dictado en inglés.
+  english_spanish_course: Este curso será dictado en inglés y español.
+  spanish_course: Este curso será dictado en español.
+
   index_talks: Charlas
   index_courses: Cursos
   index_registration:  Proximamente
@@ -121,12 +127,10 @@ es:
     como usarlo para diseñar aplicaciones de preservacion de privacidad que toman en cuenta 
     no solo la privacidad de los individuos sino tambien, la precisión de los resultados estadísticos obtenidos. 
     Esta herramiente ha sido desarrollada por los speakers y sus colaboradores.
-  course3_description1:  
-   
-  course3_description2:  
-
-  course4_description1:  
- 
+  course3_description:  
+    El objetivo de este curso es introducir al alumno en el análisis de información no estructurada ingresada en formato texto con un enfoque teórico-práctico. El énfasis estará puesto en un análisis de los documentos que surge de la interacción del Procesamiento del Lenguaje Natural (PLN), la Recuperación de la Información (RI) y el Aprendizaje Automático (AA). Se revisarán distintas herramientas para la recolección, pre-procesamiento, representación, análisis y visualización de textos. Las  técnicas consideradas incluirán tanto los enfoques clásicos de pre-procesamiento de datos  y representaciones surgidas del área de la recuperación de la información,  como las nuevas propuestas basadas en el aprendizaje de representaciones utilizando redes neuronales. Algunas de las temáticas que serán consideradas incluyen las distintas etapas del procesamiento de textos,  modelos estáticos y dinámicos de representación de documentos, la representación BOW, los enfoques distribucionales, enfoques con “embeddings”  aprendidos y modelos secuenciales basados en redes neuronales recurrentes. Si bien los ejemplos serán dados en Python, el dominio de este lenguaje no es condición excluyente para poder realizar el curso.
+  course4_description:  
+    Las abstracciones en la programación son utilizadas para estructurar código y ocultar detalles de implementación, pero su principal contribución es darnos un lenguaje para comunicar ideas. Algunas abstracciones son conocidas por todo programador, como por ejemplo las funciones y las tuplas.  En la programación funcional, y más notoriamente en el lenguaje Haskell, han surgido otras abstracciones que han tenido un gran éxito por su habilidad para conjugar funcionalidad y fuertes fundamentos teóricos. En el curso introduciremos a varias de estas abstracciones, exploraremos algunas aplicaciones, y veremos cómo los fundamentos teóricos contribuyen a su uso en la práctica.
   uni_itba: Instituto Tecnológico de Buenos Aires
   uni_chile: Universidad de Chile
   uni_brasil: Universidad Federal de Pernambuco

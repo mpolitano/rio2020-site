@@ -15,24 +15,28 @@ en:
     The Summer School of Informatic has been held annually since 1994, organized by Computing Departament of the Exactc Physical-Chemical and natural Sciences Faculty of Univervesity of Rio Cuarto
     The courses that make up this Summer School have been taught by specialists, teacher and researchers, both from Argentina and other country.
     These courses have been attended by professionals, teacher and students from educational istitutions from all over country and from neighboring countries.
-    The RIO 2020 will be held from 24 to 28 February on 2020, and will consist of intensive courses, taught by leading academics.
+    The RIO 2020 will be held from 17 to 21 February on 2020, and will consist of intensive courses, taught by leading academics.
     In adittion, certificates of assintance will be given to those who attend al least 80% of the classes taughy and, in case of satisfactorily fulfilling the required evaluation.
     A certificate of approval will be delivered.
     The main objectives of the school are:
   rio_history1: >
     Provide students and teachers of the computer careers of the UNRC, other national universities and the entire computer community, intensive and brief refresher and specialization courses taught by first-rate teachers and researchers.
+  rio_history2: >
     Make available to the students of the computer careers of the UNRC a broad and diverse vision of the field of Computer Science and facilitate academic exchange with other houses of study.
+  rio_history3: >
     Promote the participation of students of the UNRC's Computer careers in other similar events in Universities of the country and abroad.
 
   course: Course %{number}
   course_charge: On charge of
   course_description: Courses of XXIII School of Computing
-  date: February 17 to 21
+  date: February 17 to 22
   footer_the_conference_description: The congress cover several areas through
     workshops, coordinate by experts. In these Workshops there are preented
     scientific works evaluated by foreign and local researchers.
   gold: Gold
   english_course: This course will be in english
+  english_spanish_course: This course will be in english and spanish.
+  spanish_course: This course will be in spanish.
   index_talks: Talks
   index_courses: Courses
   index_registration: Open soon
@@ -117,33 +121,11 @@ en:
       that take into account not only the privacy of individuals but also the accuracy
       of obtained statistical results. This tool has been developed by the speakers
       and their collaborators.
-  course3_description1:  >
-    In the last few years, probabilistic programming languages (PPLs) have 
-    received increasing attenting, both from academia and industry. To a great extent, this is 
-    due to the way in which these languages have revolutionized artificial intelligence. 
-    For instance, modern PPLs can do in 50 lines of code what previously required over 1000.
-  course3_description2:  >
-    The main objective of this course is to introduce students to the "world" of PPLs, in a broad manner,
-    covering both practical aspects and foundations. We will start by discussing the benefits and 
-    potential of probabilistic computational models, going through their main applications, 
-    putting special emphasis on the cause of this revolution: artificial intelligence and bayesian 
-    reasoning. The second part of the course will cover the main challenges in the design and 
-    implementation of PPLs. Finally, we will discuss the formal semantics and different 
-    verification techniques for probabilistic programs.
-  course4_description1:  >
-    Propositional logic: definitions and limitations. 
-  course4_description2:  >
-    Predicate logic: definitions and limitations.
-  course4_description3:  >
-    Relational logic. 
-  course4_description4:  >
-    Program specification: weakest precondition, partial and total program correctness. 
-  course4_description5:  >
-    The Java Modeling Language: a language for program specification.  
-  course4_description6:  >
-    Automated fault localization. 
-  course4_description7:  >
-    Automated program repair.
+  course3_description:  
+    El objetivo de este curso es introducir al alumno en el análisis de información no estructurada ingresada en formato texto con un enfoque teórico-práctico. El énfasis estará puesto en un análisis de los documentos que surge de la interacción del Procesamiento del Lenguaje Natural (PLN), la Recuperación de la Información (RI) y el Aprendizaje Automático (AA). Se revisarán distintas herramientas para la recolección, pre-procesamiento, representación, análisis y visualización de textos. Las  técnicas consideradas incluirán tanto los enfoques clásicos de pre-procesamiento de datos  y representaciones surgidas del área de la recuperación de la información,  como las nuevas propuestas basadas en el aprendizaje de representaciones utilizando redes neuronales. Algunas de las temáticas que serán consideradas incluyen las distintas etapas del procesamiento de textos,  modelos estáticos y dinámicos de representación de documentos, la representación BOW, los enfoques distribucionales, enfoques con “embeddings”  aprendidos y modelos secuenciales basados en redes neuronales recurrentes. Si bien los ejemplos serán dados en Python, el dominio de este lenguaje no es condición excluyente para poder realizar el curso.
+  course4_description:  
+    Las abstracciones en la programación son utilizadas para estructurar código y ocultar detalles de implementación, pero su principal contribución es darnos un lenguaje para comunicar ideas. Algunas abstracciones son conocidas por todo programador, como por ejemplo las funciones y las tuplas.  En la programación funcional, y más notoriamente en el lenguaje Haskell, han surgido otras abstracciones que han tenido un gran éxito por su habilidad para conjugar funcionalidad y fuertes fundamentos teóricos. En el curso introduciremos a varias de estas abstracciones, exploraremos algunas aplicaciones, y veremos cómo los fundamentos teóricos contribuyen a su uso en la práctica.
+  
   uni_uba: University of Buenos Aires and 10Pines
   uni_itba: Buenos Aires Institute of Technology
   uni_chile: University of Chile

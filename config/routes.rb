@@ -24,10 +24,13 @@ Rails.application.routes.draw do
 
       get 'inscription', to: 'static_pages#inscription'
       get 'school', to: 'static_pages#school'
+
       get 'talks', to: 'static_pages#talks'
      
       get 'accommodation', to: 'static_pages#accommodation'
       get 'transport', to: 'static_pages#transport'
+      get 'scholarships', to: 'static_pages#scholarships'
+
 
 
       get 'workshops/:slug', to: 'workshops#show'

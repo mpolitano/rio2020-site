@@ -35,7 +35,7 @@ en:
     scientific works evaluated by foreign and local researchers.
   gold: Gold
   english_course: This course will be in english
-  english_spanish_course: This course will be in english and spanish.
+  english_spanish_course: This course will be theory in English and practice in Spanish
   spanish_course: This course will be in spanish.
   index_talks: Talks
   index_courses: Courses
@@ -51,7 +51,6 @@ en:
   congress_title1: RIO 2020
   course_title: Courses of Summer School of Informatics
   organize: Organize
-  paper_format: Paper Format
   platinium: Platinium
   school: School
   organization_access: Organization Access
@@ -146,5 +145,28 @@ en:
   number: Number
   unsl: Universidad Nacional de San Luis. Argentina
   unr: Universidad Nacional de Rosario. Argentina
-
-
+  accommodation_info: The Summer School of Informatics will have places in university residences (at an affordable price, these are inside the University Campus). For more information about university residences write to
+  accommodation_info1: The organization of the Summer School of Informatics is not responsible for hotel accommodation reservations. You must be managed by going directly to the hotels. Due to the limited hotel capacity of city, the reservations are suggested with advance.
+  tourism: Tourism in Rio Cuarto
+  tourism_info: Visit the page of the tourism area of the
+  tourism_info1: Municipality of Río Cuarto
+  hotels: Below, we list some of the hotels available in the City
+  transportation_info: The Rio Cuarto university campus is 7km away from the city center. 
+    To arrive there are taxi and remises companies that can carry out this route (we don't know the prices). In addition, there is a local bus service which covers this route. Local transportation (SATCRC) has its own card system (SATBUS) with a cost of $ 80 and the cost of each trip is $ 22. You can see the places where you can buy the card on the following map
+  transportation_info1: To know the routes of the lines you can access this one
+  transportation_info2: The schedules and more information about the groups can visit the company's website
+  site: site
+  inscription_info: The fee to be paid depends on your category and the number of courses to take.
+  inscription_info1: The categories considered, and the corresponding fees, are the following
+  inscription_info2: The cost of the Choripaneada" and the trip to the Sierras (with lunch included), is $ 300 for all categories.
+  inscription_info3: To complete your registration you must complete the following 
+  form: form
+  inscription_info_unrc: >
+    
+  inscription_info_unrc1: >
+   
+  scholarship_title: Registration and Accommodation Scholarships
+  category1:
+  
+  category2:
+  category3: 

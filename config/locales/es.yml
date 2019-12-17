@@ -46,7 +46,7 @@ es:
     investigadores del país y del exterior.
   gold: Oro
   english_course: Este curso será dictado en inglés.
-  english_spanish_course: Este curso será dictado en inglés y español.
+  english_spanish_course: En este curso será dictada la teoria en ingles y el practico en español.
   spanish_course: Este curso será dictado en español.
 
   index_talks: Charlas
@@ -153,9 +153,30 @@ es:
   number: Número
   unsl: Universidad Nacional de San Luis. Argentina
   unr: Universidad Nacional de Rosario. Argentina
+  accommodation_info: La Escuela de Verano de Ciencias Informáticas dispondrá de plazas en las residencias universitarias (a un precio accesible, dentro del Campus de la Universidad). Para mayor información sobre las residencias universitarias escriba a
 
+  accommodation_info1: La organización de la Escuela de Verano de Ciencias Informáticas no se encarga de las reservas de alojamiento a hoteles. Las mismas deberán gestionarse dirigiéndose directamente a los hoteles. Debido a la limitada capacidad hotelera de la ciudad, se sugiere realizar las reservas con anticipación.
+  tourism: Turismo en Rio Cuarto
+  tourism_info: Visite la pagina del área de turismo de la
+  tourism_info1: Municipalidad de Río Cuarto
+  hotels: A continuación, listamos algunos de los hoteles disponibles en la Ciudad
+  transportation_info: El campus universario de Rio Cuarto se encuentra a 7km de distancia del centro de la Ciudad. Para llegar existen empresas de taxis y remises que pueden realizar este tramo (desconocemos los precios).
+    Ademas, se cuenta con un servicio de colectivos locales los cuales cubren este trayecto. El transporte local (SATCRC) tiene un sistema propio de tarjeta (SATBUS) con un costo de $80 y el costo de cada viaje es de $22. Puede observar los lugares donde puede adquirir la tarjeta en el siguiente mapa
+  transportation_info1: Para conocer los recorridos de la lineas puede acceder a este
+  transportation_info2: Los horarios y más información sobre los colectivos puede visitar el sitio de la empresa
+  site: sitio
 
+  inscription_info: El arancel que deberá abonar depende de su categoría y la cantidad de cursos a realizar.
+  inscription_info1: Las categorías consideradas, y el arancel correspondiente, son las siguientes
+  inscription_info2: El costo del la Choripaneada y del Viaje a las Sierras (con almuerzo incluido) es de $300 para todas las categorías. 
+  inscription_info3: Para realizar su inscripción debe completar el siguiente 
+  form: Formulario de Inscripción 
+  inscription_info_unrc: Los cursos no tienen arancel para los alumnos pertenecientes a la U.N.R.C. 
 
-
+  inscription_info_unrc1: Por otro lado, los egresados de la U.N.R.C. deberán abonar el arancel acorde la Categoría "Estudiantes de Universidades Públicas". 
+  category1: Estudiantes de Universidades Públicas
+  category2: Docentes e Investigadores de Instituciones Nacionales y Provinciales
+  category3: Profesionales y otros
+  scholarship_title: Becas de Inscripción y Alojamiento
 
 

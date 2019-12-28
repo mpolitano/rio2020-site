@@ -14,7 +14,6 @@
       <div class="sec-title text-center">
         <h5>RIO 2020</h5>
         <h2><%= t 'index_sponsors_desc' %></h2>
-        <p><%= t 'sponsors_thanks' %></p>
       </div><!-- /.sec-title text-center -->
 
       <h3 class="sponsor-title text-center"><%= t 'organize' %></h3><!-- /.organization-title -->
@@ -28,6 +27,28 @@
         </li>
       </ul>
 
+      <h3 class="sponsor-title text-center">Auspician:</h3><!-- /.organization-title -->
+      <div class="sec-title text-center">
+              <p><%= t 'sponsors_thanks' %></p>
+      </div>
+      <br />
+
+      <ul class="sponsor-img-list list-inline text-center">
+        <li>
+          <%= link_to image_tag('sponsors/toptier.png', size: '240x115'), 'https://www.toptive.co/', target: "_blank" %>
+        </li>
+          <li>
+          <%= link_to image_tag('sponsors/futit.jpg', size: '200x130'), 'https://www.futitservices.com/', target: "_blank" %>
+        </li>
+      </ul>
+      <ul class="sponsor-img-list list-inline text-center">
+        <li>
+          <%= link_to image_tag('sponsors/MincytCordoba.png', size: '240x180'), 'https://mincyt.cba.gov.ar/', target: "_blank" %>
+        </li>
+        <li>
+          <%= link_to image_tag('sponsors/balseiro.jpg', size: '220x180'), 'http://www.fundacionbalseiro.com/', target: "_blank" %>
+        </li>
+      </ul>
      
 
     </div><!-- /.container -->

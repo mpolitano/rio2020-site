@@ -47,30 +47,16 @@ class StaticPagesController < ApplicationController
       type: "application/pdf")
   end
 
-  def download_schedule
-    file_hash = {
-      'wis' => 'CronogramaWIS.pdf',
-      'gobierno_digital' => 'CronogramaGobiernoDigital.pdf',
-      'wasi' => 'CronogramaWASI.pdf',
-      'warso' => 'CronogramaWARSO.pdf',
-      'wbdmd' => 'CronogramaWBDMD.pdf',
-      'wiss' => 'CronogramaWISS.pdf',
-      'wtiae' => 'CronogramaWTIAE.pdf',
-      'wsi' => 'CronogramaWSI.pdf',
-      'wpdp' => 'CronogramaWPDP.pdf',
-      'wiei' => 'CronogramaWIEI.pdf',
-      'wcgiv' => 'CronogramaWCGIV.pdf',
-      'wpsstr' => 'CronogramaWCGIV.pdf'
-    }
-    filename = file_hash.fetch(params[:id])
-    extension = filename.split('.').last
-
+  def accommodation_rio
     send_file(
-      "#{Rails.root}/app/assets/images/#{filename}",
-      filename: filename,
-      type: "application/#{extension}",
-      disposition: "inline; filename=#{filename}")
+      "#{Rails.root}/app/assets/images/tarifasHotel2019.pdf",
+      filename: "tarifasHotel2019.pdf",
+      type: "application/pdf",
+      disposition: "inline; filename=tarifasHotel2019.pdf")
+
   end
+
+ 
 
   # def download_schedule_wpdp
   #   send_file(
@@ -101,7 +87,6 @@ class StaticPagesController < ApplicationController
   #     "#{Rails.root}/app/assets/images/cronogramaWPSSTR.pdf",
   #     filename: "cronogramaWPSSTR.pdf",
   #     type: "application/pdf",
-  #     disposition: 'inline; filename=cronogramaWPSSTR.pdf')
   # end
 
   # def download_schedule_wsi

@@ -29,15 +29,15 @@
         display: block;
         margin-right: 0;
         border-color: #00079b;
-        background-color: transparent !important;
+        background-color: #e0e4e8d9 !important;
     }
     .navbar-toggle {
         margin-top: 36px;
         margin-bottom: 0;
     }
-    .navbar-default .navbar-toggle:hover {border-color: #00079b;}
-    .navbar-default .navbar-toggle .icon-bar {background: #00079b;}
-    .navbar-default .navbar-toggle:hover .icon-bar {background: #00079b;}
+    .navbar-default .navbar-toggle:hover {border-color: #009b15;}
+    .navbar-default .navbar-toggle .icon-bar {background: #009b15;} 
+    .navbar-default .navbar-toggle:hover .icon-bar {background: #009b15;}
     .navbar-collapse.collapse {
         display: none!important;
         height: 0!important;

@@ -21,6 +21,7 @@ Rails.application.routes.draw do
       get 'schedule', to: 'static_pages#schedule'
 
 
+      get 'accommodation_rio', to: 'static_pages#accommodation_rio'
 
       get 'inscription', to: 'static_pages#inscription'
       get 'school', to: 'static_pages#school'

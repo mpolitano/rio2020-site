@@ -34,6 +34,10 @@ Rails.application.routes.draw do
 
 
 
+      # get 'materials_course2', to: 'static_pages#materials_course2'
+
+
+
       get 'workshops/:slug', to: 'workshops#show'
 
 

@@ -8,11 +8,11 @@
 
 <section class="page-title">
   <div class="container">
-    <h2>Charlas</h2>
-    <ul class="list-inline">
+    <h2><span>Charlas</span></h2>
+    <!-- <ul class="list-inline">
       <li><a href="/">Home</a></li>
       <li><a href="#"><i class="fa fa-angle-right"></i> Congreso</a></li>
-    </ul><!-- /.list-inline -->
+    </ul><!-- /.list-inline --> -->
   </div><!-- /.container -->
 </section><!-- /.page-title -->
 
@@ -30,14 +30,47 @@
        
         <h4> A cargo de: <%= link_to 'WeDevelop', 'https://wedevelop.me/', target: '_blank' %>
        </h4>  
-        <h5> <i class='fas fa-calendar-alt'></i> Martes 18 de Febrero. 15hs </h5> 
+        <h5> <i class='fas fa-calendar-alt'></i> Martes 18 de Febrero. 15 hs. </h5> 
+        <h5> <%= fa_icon "map-marker" %> Aula 27-Pabellón 4 </h5>   
 
         <div id="charla1" class="description">
           <strong>Abstract</strong> <br>
           Diseño avanzado de API usando GraphQL, un producto de Facebook que está haciendo podio en el mundo de las API por sobre REST. Usando el stack de Javascript más popular: Node.js + Express.
         </div>
       </li>
-   
+     
+
+
+
+
+      <li>
+        <h3> <bold>Charla 2</bold>: <a href="#" onclick="toggleCourse('charla2'); return false;">Machine Learning - Soluciones y aplicación en ambiente empresarial</a></h3>
+       
+        <h4> A cargo de: <%= link_to 'Futit Services', 'https://www.futitservices.com/', target: '_blank' %>
+       </h4>  
+        <h5> <i class='fas fa-calendar-alt'></i> Jueves 20 de Febrero. 14.30 hs.</h5> 
+        <h5> <%= fa_icon "map-marker" %> Aula 27-Pabellón 4 </h5>   
+
+        <div id="charla2" class="description">
+          <strong>Abstract</strong> <br>
+          Charlaremos cómo el proceso de brindar servicios va mutando a lo largo del tiempo y las necesidades de los clientes, y a partir de esto, como potenciar el negocio de los mismos a través de el uso de Machine Learning.
+        </div>
+      </li>
+
+            <li>
+        <h3> <bold>Charla 3</bold>: <a href="#" onclick="toggleCourse('charla3'); return false;">El futuro del desarrollo mobile</a></h3>
+       
+        <h4> A cargo de: <%= link_to 'Toptive', 'https://www.toptive.co/', target: '_blank' %>
+       </h4>  
+        <h5> <i class='fas fa-calendar-alt'></i> Viernes 21 de Febrero. 14.30 hs.</h5> 
+        <h5> <%= fa_icon "map-marker" %> Aula 27-Pabellón 4 </h5>   
+
+        <div id="charla3" class="description">
+          <strong>Abstract</strong> <br>
+          Al momento de elegir la tecnología con la que desarrollar una aplicación, entran en juego múltiples factores: tiempos del proyecto, costo, capacidad técnica del equipo, ventajas y desventajas intrínsecas de cada tecnología. Cada uno ejerce presión en una dirección diferente, y es importante encontrar un punto de equilibrio en el que confluyan todos en pos de las necesidades reales del proyecto y las expectativas del cliente.
+          Teniendo en cuenta todos estos factores, en Toptive confiamos en que la mejor opción para el desarrollo de Apps hoy en día es React Native.
+        </div>
+      </li>
   
       
     </ul>

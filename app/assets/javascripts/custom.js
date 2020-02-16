@@ -6,7 +6,7 @@
 		var countDownContainer = $('.coundown');
 		if (countDownContainer.length) {
 			countDownContainer.countdown({
-				date: "February 23, 2020 23:59:59"
+				date: "February 17, 2020 07:59:59"
 			});
 		};
 	}
